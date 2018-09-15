@@ -16,31 +16,32 @@ body
     margin-left: auto;
     margin-right: auto;
 }
+/* The header content in the page */
 .pageHeader
 {
     position:relative;
     height: 150px;
     width:100%;
-    background-color: #414956;
-}
-.midContent
-{
-    width:100%;
-    height:700px;
-    background-color: #414956;
-}
 
+    background-color: #414956;
+
+    /* background-color: black;
+    border-bottom-left-radius: 100% 70px; -- Going to need an opinion on this. Adds more contrast/structure, but messes with the open-concept feel and fluidity.
+    border-bottom-right-radius: 100% 70px; */
+}
 #navbar
 {
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content:space-around;
     position: absolute;
-    left:25%;
-    right:25%;
     top: 20px;
-    
+    left:20%;
+    right:20%;
 
+    margin-left:auto;
+    margin-right:auto;
+    
     list-style-type: none;
     padding:0;
 }
@@ -56,4 +57,37 @@ body
 {
     text-decoration: none;
     color: white;
+}
+
+/* First set of content on this page -- the Headline content. */
+.midContent
+{
+    width:100%;
+    height:700px;
+    background-color: #414956;
+    /* border-top: 2px solid white; Just a construction line for now. */
+}
+#headline
+{
+    font-size:12vw;
+    text-align:center;
+    color: white;
+    margin-bottom:0;
+}
+#sub-headline
+{
+    font-size:2vw;
+    text-align:center;
+    color:white;
+    margin-top:0;
+}
+i.down-arrow-headline
+{
+    border: solid white;
+    border-width: 0 25px 25px 0;
+    display:inline-block;
+    padding:20px;
+
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
 }
