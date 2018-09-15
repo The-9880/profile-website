@@ -8,6 +8,8 @@ body
     margin: 0 0;
     padding: 0 0;
     background-color: #414956;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .contentWrapper
@@ -90,4 +92,26 @@ i.down-arrow-headline
 
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+}
+
+.skills-area
+{
+    background-color: #182a49;
+}
+.section-headline
+{
+    color:white;
+    font-size:7vw;
+    text-align:center;
+    font-family: "Nova Round";
+}
+.section
+{
+    text-align: left;
+}
+h3.section-headline
+{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+
 }
