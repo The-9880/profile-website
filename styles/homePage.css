@@ -66,7 +66,6 @@ body
     height:700px;
     background-color: #414956;
     background-color:white;
-    /* border-top: 2px solid white; Just a construction line for now. */
 }
 #headline
 {
@@ -85,9 +84,9 @@ body
 i.down-arrow-headline
 {
     border: solid black;
-    border-width: 0 25px 25px 0;
+    border-width: 0 1.65vw 1.65vw 0;
     display:inline-block;
-    padding:20px;
+    padding:1.4vw;
 
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -127,7 +126,7 @@ i.down-arrow-headline
 .about-table
 {
     overflow:hidden;
-    padding: 10px 10px;
+    padding: 30px 10px;
     background-color: #FDFDFD;
     /* border-radius: 5px; */
     box-shadow: 1px 5px 10px 3px #888888;
@@ -135,13 +134,16 @@ i.down-arrow-headline
 }
 .skills-table
 {
-
+    overflow:hidden;
+    padding: 30px 10px;
+    text-align:center;
 }
 
 div[class$="table"] div
 {
     float:left;
     height:100%;
+    padding:0 10px;
 }
 
 
@@ -155,20 +157,18 @@ div[class$="table"] div
     color:white;
     font-size:7vw;
     text-align:center;
-    font-family: "Nova Round";
 }
 .section-content
 {
     text-align: left;
 }
+h3
+{
+    font-size: 2vw;
+}
 h3.section-content-title
 {
     color: white;
     font-size: 3vw;
-    border-bottom: 2px solid white;
-}
-
-.about-area .section-headline
-{
-    color: black;
+    text-align: center;
 }
