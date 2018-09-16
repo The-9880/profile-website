@@ -93,6 +93,7 @@ i.down-arrow-headline
     -webkit-transform: rotate(45deg);
 }
 
+/* Content Sections -- About first. */
 .about-area, .skills-area
 {
     padding:50px 100px;
@@ -101,14 +102,50 @@ i.down-arrow-headline
 .about-area
 {
     background-color: #6296ea;
+    background-color: white;
 }
 .about-area p
 {
-    color: white;
     font-size: 1.5vw;
 }
 
+/* Gridview implementation */
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{Width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+/* End of Gridview */
 
+.about-table
+{
+    overflow:hidden;
+    padding: 10px 10px;
+    background-color: #FDFDFD;
+    /* border-radius: 5px; */
+    box-shadow: 1px 5px 10px 3px #888888;
+    text-align:center;
+}
+.skills-table
+{
+
+}
+
+div[class$="table"] div
+{
+    float:left;
+    height:100%;
+}
+
+
+/* Skills section */
 .skills-area
 {
     background-color: #182a49;
@@ -128,10 +165,10 @@ h3.section-content-title
 {
     color: white;
     font-size: 3vw;
+    border-bottom: 2px solid white;
 }
-.third
+
+.about-area .section-headline
 {
-    display: inline-block;
-    padding: 0 10px;
-    width: 33%;
+    color: black;
 }
