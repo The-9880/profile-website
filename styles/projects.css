@@ -80,10 +80,14 @@ a.project-link
 
 .project-card
 {
+    position: relative;
     padding: 30px 50px;
+    padding-left: 25px;
     overflow: hidden;
+    margin-bottom: 1.5vw;
+
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: 0.5s;
+    transition: 0.25s;
 }
 .project-card:hover
 {
@@ -97,18 +101,19 @@ a.project-link
 .project-card-img
 {
     height: 100%;
+    margin-right: 25px;
 }
 .project-card-text
 {
     height: 100%;
     text-align: left;
-    width: calc(100% - 130px);
+    width: calc(100% - 8.5vw - 25px);
     position: relative;
 }
 img.project-icon
 {
-    height:130px;
-    width:130px;
+    height: 8.5vw;
+    width: 8.5vw;
 }
 
 h3.project-title
@@ -119,9 +124,15 @@ h3.project-title
     border-bottom: 5px solid black;
 }
 
+p
+{
+    font-size: 1.1vw;
+}
+
 p.tags
 {
     position: absolute;
-    bottom: 0;
-    right:0;
+    bottom: 1vw;
+    right: 1vw;
+    margin: 0;
 }
