@@ -1,0 +1,64 @@
+/* Gridview implementation -- only using gridview in conjunction with tile display for project cards.*/
+.col-1{width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width: 25%;}
+.col-4{Width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width: 58.33%;}
+.col-8{width: 66.66%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.66%;}
+.col-12{width: 100%;}
+/* End of Gridview */
+/* Boxview */
+.box-1{width: 8.33vw; height: 8.33vw;}
+.box-2{width: 16.66vw; height: 16.66vw;}
+.box-3{width: 25vw; height:25vw;}
+.box-4{width: 33.33vw; height:33.33vw;}
+/* End Boxview */
+
+
+
+.tile-row
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.project-card
+{
+    padding: 10px 10px;
+    margin: 1vw 1vw;
+    overflow: hidden;
+    position: relative;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.25s;
+}
+.project-card-img
+{
+    width: 100%;
+}
+.project-icon
+{
+    max-height: 130px;
+    width: 100%;
+}
+.project-card-text
+{
+}
+p.tags
+{
+    position: static;
+    text-align: right;
+}
+
+p
+{
+    font-size: 1vw;
+}
+h3.project-title
+{
+    font-size: 2vw;
+}

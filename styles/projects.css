@@ -65,7 +65,7 @@ body
     color: white;
 }
 
-/* Starting specific styles for the project page */
+/* Starting specific styles for the project page --------------------- */
 .contentWrapper
 {
     padding: 0 100px;
@@ -76,46 +76,13 @@ a.project-link
     /* Check for a better fix than this. */
     /* Maybe just add cursor: pointer, and an onclick event to the project-card itself. */
     color:black;
-}
-
-.project-card
-{
-    position: relative;
-    padding: 30px 50px;
-    padding-left: 25px;
-    overflow: hidden;
-    margin-bottom: 1.5vw;
-
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: 0.25s;
+    text-decoration: none;
 }
 .project-card:hover
 {
     transform: scale(1.1);
     /* cursor: pointer; */
 }
-.project-card div
-{
-    float: left;
-}
-.project-card-img
-{
-    height: 100%;
-    margin-right: 25px;
-}
-.project-card-text
-{
-    height: 100%;
-    text-align: left;
-    width: calc(100% - 8.5vw - 25px);
-    position: relative;
-}
-img.project-icon
-{
-    height: 8.5vw;
-    width: 8.5vw;
-}
-
 h3.project-title
 {
     font-size: 3vw;
@@ -131,6 +98,7 @@ p
 
 p.tags
 {
+    font-weight: 900;
     position: absolute;
     bottom: 1vw;
     right: 1vw;
