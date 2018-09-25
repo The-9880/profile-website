@@ -35,6 +35,7 @@
 
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 0.25s;
+    border-radius: 5px;
 }
 .project-card-img
 {
@@ -42,15 +43,13 @@
 }
 .project-icon
 {
-    max-height: 130px;
+    height: 130px;
     width: 100%;
-}
-.project-card-text
-{
+    border-radius: 5px 5px 0 0;
 }
 p.tags
 {
-    position: static;
+    position: absolute;
     text-align: right;
 }
 
