@@ -36,3 +36,51 @@ p.tags
     right: 1vw;
     margin: 0;
 }
+
+/* Styles for the toggle button */
+
+.switchBox
+{
+    position: relative;
+    left: 2vw;
+    display: inline-block;
+    height: 30px;
+    width: 56px;
+    cursor: pointer;
+}
+
+.styleToggle {display:none;}
+
+.slider
+{
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: #ddd;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.slider::before
+{
+    position: absolute;
+    content:"";
+    background: url('../images/tiles.png');
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    left: 4px;
+    bottom: 3px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.styleToggle:checked + .slider::before
+{
+    background-image: url('../images/list.png');
+    -webkit-transform: translateX(24px);
+    -ms-transform: translateX(24px);
+    transform: translateX(24px);
+}

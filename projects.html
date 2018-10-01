@@ -4,9 +4,10 @@
     <head>
         <title>Projects</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- This particular stylesheet is the first for ease of access in the javascript. -->
+        <link rel="stylesheet" href="styles/project-tile-display.css">
         <link rel="stylesheet" href="styles/common.css">
         <link rel="stylesheet" href="styles/projects.css">
-        <link rel="stylesheet" href="styles/project-tile-display.css">
         <script src="scripts/jquery-3.3.1.min.js"></script>
     </head>
 
@@ -22,7 +23,12 @@
 
         <div class="contentWrapper">
 
+            <div class="whitespace" style="height:300px;"></div>
 
+            <label class="switchBox">
+                <input type="checkbox" class="styleToggle">
+                <span class="slider"></span>
+            </label>
 
             <!-- TODO: Fix tags in project-card div, or else use the tags in the <p> elements-->
             <div class="tile-row col-12">
@@ -145,13 +151,8 @@
                         </div>
                         <div class="project-card-text">
                             <h3 class="project-title">Word2Vec</h3>
-                            <p>Learning project following my study of RBMs in Geoffrey Hinton's Coursera course on neural networks.
-                            In this project, I aimed to train a generative model to learn a probability distribution through its
-                            hidden states so that it would create reconstructions that capture the regularities of digits seen in
-                            the MNIST dataset's digits. This implementation uses Gibbs Sampling for MCMC sampling. Dependencies:
-                            <ul>
-                                <li>Tensorflow</li>
-                            </ul>
+                            <p>An implementation of Word2Vec via a skip-gram model aiming to learn word embeddings for NLP
+                                purposes.
                             </p>
                         </div>
                         <p class="tags">Machine Learning, Python</p>
