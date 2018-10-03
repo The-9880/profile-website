@@ -20,6 +20,12 @@
 /* End Boxview */
 
 
+.project-grid
+{
+    display: inline-grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    justify-content: space-evenly;
+}
 
 .tile-row
 {
@@ -29,7 +35,7 @@
 .project-card
 {
     padding: 10px 10px;
-    margin: 2vw 2vw;
+    margin: 1vw 1vw;
     overflow: hidden;
     position: relative;
 
