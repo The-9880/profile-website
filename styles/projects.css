@@ -34,7 +34,11 @@ p.tags
     position: absolute;
     bottom: 1vw;
     right: 1vw;
-    margin: 0;
+    margin: 0; 
+}
+.project-card-text
+{
+    padding-bottom: 1vw;
 }
 
 /* Styles for the toggle button */
@@ -42,7 +46,8 @@ p.tags
 .switchBox
 {
     position: relative;
-    left: 2vw;
+    left: 1vw;
+    top: .5vw;
     display: inline-block;
     height: 30px;
     width: 56px;
