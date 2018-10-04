@@ -1,0 +1,34 @@
+@media only screen and (max-width:650px)
+{
+    /* Headline styles */
+    #headline
+    {
+        font-size: 13vw;
+    }
+    #sub-headline
+    {
+        font-size: 2.5vw;
+    }
+    [class*="col-"]
+    {
+        width:100%;
+    }
+
+    /* Styles for content sections */
+    img.icon
+    {
+        height: 20vw;
+    }
+    h3
+    {
+        font-size: 5vw;
+    }
+    .about-table div
+    {
+        margin-bottom: 8vw;
+    }
+    .about-area p
+    {
+        font-size: 3vw;
+    }
+}
