@@ -67,3 +67,11 @@ h3.project-title
 {
     font-size: 2vw;
 }
+
+@media only screen and (max-width: 650px)
+{
+    .project-grid
+    {
+        grid-template-columns: 50% 50%;
+    }
+}

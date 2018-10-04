@@ -1,8 +1,3 @@
-.contentWrapper
-{
-    padding: 0 100px;
-}
-
 a.project-link
 {
     /* Check for a better fix than this. */
@@ -20,7 +15,7 @@ h3.project-title
     font-size: 3vw;
     margin: 0;
 
-    border-bottom: 5px solid black;
+    border-bottom: .325vw solid black;
 }
 
 p
@@ -88,4 +83,20 @@ p.tags
     -webkit-transform: translateX(24px);
     -ms-transform: translateX(24px);
     transform: translateX(24px);
+}
+
+@media only screen and (max-width:650px)
+{
+    h3.project-title
+    {
+        font-size:5vw;
+    }
+    p
+    {
+        font-size: 2vw;
+    }
+    ul
+    {
+        font-size: 2vw;
+    }
 }
