@@ -75,10 +75,20 @@ i.down-arrow-headline
 }
 .skills-table
 {
-    padding: 0 0;
+    padding: 0 2vw;
     text-align:center;
     width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-column-gap: .5vw;
+    grid-row-gap: .5vw;
 }
+.grid-full
+{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
 li
 {
     font-size: 1.5vw;
@@ -93,6 +103,11 @@ div[class$="table"]>div
 
 
 /* Skills section */
+.skills-area
+{
+    text-align: center;
+    overflow: hidden;   
+}
 .section-headline
 {
     font-size:7vw;
@@ -104,7 +119,7 @@ div[class$="table"]>div
     font-size: 1.3vw;
     /* These lines are prototype for tiles */
     padding: 1.95vw 1.95vw;
-    box-shadow: 0px 0px 5px #888888; 
+    box-shadow: 0px 0px 5px #888888;
 }
 
 .section-content ul
@@ -127,13 +142,10 @@ img.icon
 {
     height: 8.45vw;
 }
-.skills-table-row
+
+ul.courseList
 {
-    width: 100%;
-    display: flex;
-    text-align: center;
-}
-.skills-table-row div
-{
-    margin: .325vw .325vw;
+    float:left; 
+    text-align: left; 
+    margin:0 5px;
 }

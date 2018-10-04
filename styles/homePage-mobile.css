@@ -31,4 +31,30 @@
     {
         font-size: 3vw;
     }
+    h3.section-content-title
+    {
+        font-size: 4vw;
+    }
+    ul li
+    {
+        font-size: 3vw;
+    }
+    .skills-table
+    {
+        display: grid;
+        padding: 0 3vw;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 2vw;
+        grid-row-gap: 2vw;
+    }
+    .grid-full
+    {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .grid-full ul
+    {
+        float:left;
+        margin: 5px; 0;
+    }
 }
