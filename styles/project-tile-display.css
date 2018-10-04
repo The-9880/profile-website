@@ -74,4 +74,8 @@ h3.project-title
     {
         grid-template-columns: 50% 50%;
     }
+    p
+    {
+        font-size: 2.5vw;
+    }
 }

@@ -89,11 +89,6 @@ i.down-arrow-headline
     grid-column-end: 5;
 }
 
-li
-{
-    font-size: 1.5vw;
-}
-
 div[class$="table"]>div
 {   
     float:left;
