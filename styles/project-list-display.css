@@ -31,6 +31,11 @@ img.project-icon
     transition: 0.25s;
 }
 
+.project-grid
+{
+    padding-top: 1.5vw;
+}
+
 @media only screen and (max-width: 650px)
 {
     p
