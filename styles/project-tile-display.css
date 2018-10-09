@@ -25,6 +25,7 @@
     display: inline-grid;
     grid-template-columns: 33.33% 33.33% 33.33%;
     justify-content: space-evenly;
+    padding-top: 1vw;
 }
 
 .tile-row
