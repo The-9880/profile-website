@@ -5,6 +5,7 @@
     height: 29.25vw;
     background-color: #414956;
     background-color:white;
+    margin-top: calc(150px - 9.75vw);
 }
 #headline
 {
