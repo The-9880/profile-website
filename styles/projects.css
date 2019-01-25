@@ -45,7 +45,7 @@ p.tags
     top: .5vw;
     display: inline-block;
     height: 30px;
-    width: 56px;
+    width: 80px;
     cursor: pointer;
 }
 
@@ -80,9 +80,9 @@ p.tags
 .styleToggle:checked + .slider::before
 {
     background-image: url('../images/list.png');
-    -webkit-transform: translateX(24px);
-    -ms-transform: translateX(24px);
-    transform: translateX(24px);
+    -webkit-transform: translateX(48px);
+    -ms-transform: translateX(48px);
+    transform: translateX(48px);
 }
 
 @media only screen and (max-width:650px)
