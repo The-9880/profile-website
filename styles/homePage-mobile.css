@@ -39,6 +39,10 @@
     {
         font-size: 3vw;
     }
+    .about-table
+    {
+        opacity: 1
+    }
     .skills-table
     {
         display: grid;
@@ -46,6 +50,12 @@
         grid-template-columns: 50% 50%;
         grid-column-gap: 2vw;
         grid-row-gap: 2vw;
+
+        opacity: 1;
+    }
+    .section-content
+    {
+        opacity: 1;
     }
     .grid-full
     {
